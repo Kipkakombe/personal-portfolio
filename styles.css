@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(79, 195, 247, 0.8);
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+a{
+    color: rgb(10, 10, 11);
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: auto;
+    background-color: rgba(15, 76, 129, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.navbar ul{
+    display: flex
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: heavy;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.navbar .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    
+}
+.home{
+     margin-top: 100px;
+}
+h1, h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white; 
+}
+#welcome{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 2px;
+}
